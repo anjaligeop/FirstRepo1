@@ -6,8 +6,9 @@ soup=BeautifulSoup(f.read(),'html.parser')
 #a=soup.td['class']
 #print(a)
 s=soup.find(class_="c0")
-print(s)
+print(s) #not required to print soup object
 #print(s.contents)
+#use meaningfule variable names, name of the variable should indicate what the variable holds 
 for lm in s:
     print(lm)
 #print(s.next_sibling)
